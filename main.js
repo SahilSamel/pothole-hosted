@@ -21,10 +21,7 @@ $(function () {
                     resolve();
                 };
             });
-        }).catch((err) => {
-            // always check for errors at the end.
-            console.error(`${err.name}: ${err.message}`);
-          });
+        });
 
     var publishable_key = "rf_WHwJzINQWNdz55mh8ktrRl3z8Fv2";
     var toLoad = {
