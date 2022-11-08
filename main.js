@@ -26,7 +26,7 @@ $(function () {
     var publishable_key = "rf_WHwJzINQWNdz55mh8ktrRl3z8Fv2";
     var toLoad = {
         model: "pothole-zxtro",
-        version: 2,
+        version: 1,
     };
 
     const loadModelPromise = new Promise(function (resolve, reject) {
